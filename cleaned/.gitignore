@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+
+# Derleme çıktıları (IDE)
+bin/
+*.class
+
+# IDE
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
