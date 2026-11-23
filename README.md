@@ -76,13 +76,3 @@ Bağımlılık akışı: **app → utilities → list**. `app` ayrıca `org.apac
 
 ---
 
-## 🧹 Düzenleme Notu
-
-- IDE derleme çıktıları (`bin/` içindeki `*.class`) depodan hariç tutuldu ve `.gitignore`
-  genişletildi (`bin/`, `*.class`, IDE/OS dosyaları).
-- README yeniden yazıldı (proje amacı, modüller, çalıştırma adımları).
-- Kaynak kodda API anahtarı / token / parola gibi gizli bilgi **bulunmamıştır**
-  (`.travis.yml` dahil).
-
-> Not: Depoda hâlâ takip edilen `bin/` dosyaları varsa, git takibinden çıkarmak için:
-> `git rm -r --cached **/bin` çalıştırıp commit'leyin.
